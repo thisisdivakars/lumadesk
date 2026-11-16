@@ -1,0 +1,212 @@
+# 🌟 LumaDesk VR: Spatial Executive Function & Sensory-Regulated Productivity Cockpit
+
+> **An ADHD- and Autism-friendly WebXR productivity and occupational therapy sanctuary built with Meta Immersive Web SDK (`@iwsdk/core`), Three.js, TypeScript, and Meta Wit.ai.**
+
+[![Watch the Demo Video](https://img.shields.io/badge/🎥_Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]([Insert Demo Video Link])
+[![Live WebXR Build](https://img.shields.io/badge/🥽_Launch_Live_WebXR_App-00F0FF?style=for-the-badge&logo=meta&logoColor=black)]([Insert Live Deployment URL])
+[![License: MIT](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+
+![LumaDesk VR Hero Banner]([Insert Hero Screenshot: Full 3-Table Cockpit View])
+
+---
+
+## 📖 1. Project Overview & Vision
+
+### The Problem
+Traditional 2D productivity apps (flat calendars, text-heavy Kanban boards, and ticking 25-minute Pomodoro timers) consistently fail neurodivergent children (ADHD, Autism, and AuDHD) for four clinical reasons:
+1. **Executive Dysfunction & Working Memory Overload:** Flat lists of text blend together, triggering choice paralysis ("blank-page freeze") and out-of-sight, out-of-mind forgetfulness.
+2. **ADHD Time Blindness (Barkley, 1997):** Abstract digital countdown numbers (`04:59... 04:58`) do not register urgency in the ADHD prefrontal cortex until it is too late, while fast-ticking clocks induce anxiety in autistic learners.
+3. **Sensory & Emotional Dysregulation During Transitions:** Children cannot initiate homework or daily routines while their nervous system is hyper-aroused (fidgety, overwhelmed by school transit) or hypo-aroused (brain fog).
+4. **Interoceptive Blindness:** Neurodivergent learners frequently miss internal thirst and hunger cues until dehydration or low blood sugar triggers a meltdown or focus crash.
+
+### Our Solution: The "Anchor-and-Release" Spatial Bridge
+**LumaDesk VR** is not a 12-hour virtual prison—it is a **3-to-15 minute Spatial Transition & Focus Cockpit** built around a three-table physical layout:
+* **360° VR Sanctuary Mode (Nervous System Reset & Rehearsal):** Children step into a calm 360° environment (`Forest`, `Ocean`, `Dino`, or `Space`) for 90 seconds to regulate their breathing, clear mental clutter, and pre-rehearse upcoming daily transitions (`☀️ Morning`, `🚌 Commute`, `📚 Study`, `🌙 Night`).
+* **Mixed Reality Passthrough Mode (`🏠 Real Room (MR)`):** When it is time to do real-world homework on paper, tapping **Real Room (MR)** hides the virtual sky dome and hollows out the center desk surface—allowing the child to see their physical notebook and pencil through the headset while their **3D Shrinking Focus Timer Ring**, **Left-Wing 3D Kanban Board**, **Luma Study Companion**, and **Wit.ai Voice Orb** float right around their real desk.
+
+---
+
+## ✨ 2. Key Features & Clinical Accessibility Design
+
+![LumaDesk 3-Table Layout]([Insert Screenshot: Left Kanban Table, Center Desk & Right Botanical Garden])
+
+### 📋 A. Left-Wing Table: 3D Spatial Kanban Board & Daily Contexts
+* **Tangible `🔴 TO-DO` ➔ `🟡 DOING` ➔ `🟢 DONE` Lanes:** Externalizes working memory into three glowing physical 3D columns.
+* **Single-Tasking WIP Enforcement:** Tapping a task in `🔴 TO-DO` slides it into `🟡 DOING`, calms Luma's mood, and automatically starts a **2-Minute Focus Sprint** so the child focuses on one micro-step at a time.
+* **Dopamine Completion Loop:** Tapping a `🟡 DOING` card moves it to `🟢 DONE`, plays a celebratory harmonic chime, and awards **`+15✨ Sparks`** plus **`+1🌱 Garden Seed`**.
+* **4 Asynchronous Daily Routine Contexts:** Instant switching between `☀️ Morning`, `🚌 Commute`, `📚 Study`, and `🌙 Night` above the Kanban lanes for predictive social/routine rehearsal.
+
+### ⏱️ B. Center Desk: Visual Time-Horizon Timer & Luma Decision Unblocker
+* **3D Shrinking Visual Time-Ring:** Combats ADHD time-blindness by wrapping the center desk perimeter in a 64-segment glowing neon arc (`RingGeometry`) that physically drains as time passes, shifting color from **Electric Cyan** (>50%) to **Warm Gold** (20%–50%) to **Emerald Green** (<20%).
+* **Micro-Sprint Presets (`2-Min` / `5-Min`):** Replaces intimidating 25-minute Pomodoros with achievable 2-minute and 5-minute micro-sprints (`+25✨ Sparks` + `+1🌱 Seed` on completion).
+* **Luma Companion Pet & "🎲 Pick 1 Tiny Step For Me!":** Inspired by clinical ADHD planners, tapping Luma in the center of the desk acts as an **Executive Paralysis Breaker**—scanning the user's active `DOING`/`TO-DO` list and hydration state to speak a single, immediate micro-action aloud.
+
+### 🎙️ C. Stationary Meta Wit.ai Voice NLU Plasma Orb
+* **Zero-Typing Brain Dump (`pin_sticky_note`):** Saying *"Remind me to pack my science book"* immediately creates a 3D task card in the `🔴 TO-DO` column (`+10✨`).
+* **AI Macro-Task Chunking (`chunk_big_task`):** Saying *"Break down my homework"* automatically splits an overwhelming task into 3 bite-sized steps, places Step 1 into `🟡 DOING`, and starts the 2-minute focus timer (`+15✨`).
+* **3D Weather & Sensory Outfit Hologram (`check_weather_outfit`):** Saying *"What is the weather and what should I wear?"* spawns a 3D hologram with sensory-safe clothing guidance (e.g., *"Breathable tagless cotton tee + sunglasses for bright glare"*).
+* **Voice Sensory SOS (`sensory_sos` / `dim_lights`):** Saying *"I feel overwhelmed"* dims the room lighting into soothing Night Mode and launches Stage 2 Breath Sync.
+
+![Wit.ai Voice NLU & Weather Hologram]([Insert Screenshot: Wit.ai Plasma Orb & Weather Sensory Hologram])
+
+### 🧠 D. 4-Stage Clinical Readiness Micro-Quests
+1. **Stage 1 — Sensorimotor Chaos Pop (`STAGE_1_MOTOR_POP`):** Pop 4 floating distraction shapes to warm up upper-limb coordination and track motor reaction speed in milliseconds (`ms`).
+2. **Stage 2 — Diaphragmatic Breath Sync (`STAGE_2_BREATH_SYNC`):** Rhythmically pulse with Luma's expanding halo to lower heart rate and recharge the Calm Battery.
+3. **Stage 3 — 1-2-3 Procedural Totem Sequence (`STAGE_3_TOTEM_SEQUENCE`):** Tap sequential 3D blocks in order (`Step 1 ➔ Step 2 ➔ Step 3`) to build executive sequencing.
+4. **Stage 4 — Social & Rumination Decoder (`STAGE_4_SOCIAL_DECODER`):** Pop negative anxious thought loops ("Ruminations") while anchoring positive "Core Truths."
+
+### 🖌️ E. Isolated 3D Visuomotor Tracing Canvas & Bilateral Xylophone
+* **Zero-Clutter Scene Isolation:** Opening the **3D Drawing Canvas** automatically hides all background tables, banners, and HUD bars—leaving *only* the 4 Neon Paint Pots, `🧹 Clear Drawing`, `✨ Change Trace Guide`, and `❌ Close Canvas` (which wipes strokes cleanly on exit so nothing occludes the main desk).
+* **Strict Hold-to-Paint Gate:** Prevents accidental air-scribbling by only extruding 3D neon ribbons while the user actively holds click/pinch, with automatic distance-jump rejection (`>18cm`).
+* **Translucent 3D Holographic Tracing Guides (`1 ★` to `5 ★`):** Includes the clinical **Lazy-8 Infinity Loop ($\infty$)** for bilateral midline crossing, **Calm Ocean Wave ($\sim$)**, **5-Point Star Arch ($\star$)**, and **Free Draw**.
+* **8-Note Bilateral Xylophone:** Color-coded musical bars (`C` to `C6`) synthesized in real time via the Web Audio API.
+
+![Isolated 3D Tracing Canvas]([Insert Screenshot: Focused 3D Drawing Canvas & Translucent Guide Path])
+
+### 🌱 F. Biological Fuel & Right-Wing Botanical Reward Garden
+* **Interactive Hydration Pitcher (`0/8 Cups`) & Safe Meal Plate:** Visualizes daily water intake with a rising 3D liquid cylinder and mid-quest Thirst Reminders. Logging a Safe Meal spawns a new seed on the Seed Dish.
+* **6-Pot Botanical Garden & Grabbable Tools:** Users pick up seeds from the **Seed Dish** and grab the **Golden Watering Can** to grow 6 pots through 4 physical 3D stages (`🕳️ Empty ➔ 🌱 Sprout ➔ 🌿 Sapling ➔ 🌸 Blooming Tree!`).
+* **RPG Leveling (`🧙 Lv.X`) & Birthday Horizon Banner:** Converts accumulated Sparks into a Habitica-style RPG level in the HUD alongside a live countdown to the child's birthday.
+
+### 🏠 G. Optimized Mixed Reality (`Real Room (MR)`) & Therapist Telemetry
+* **MR Homework Cockpit Optimization:** Clicking the **3D Mini House Icon (`🏠 Real Room (MR)`)** hides the 360° sky dome, flying birds, VR theme orbs, and the solid center tabletop slab—leaving a transparent real-world desk window framed by the glowing **3D Focus Timer Ring** and peripheral Kanban/Garden tables.
+* **Parent & Therapist Clinical Report Modal (`📊 Daily Report`):** Tracks multi-day history in `localStorage` across 3 clinical domains (Sensorimotor Reaction Speed, Self-Care/Hydration Autonomy, and Receptive/Expressive Wit.ai Communication) with 1-click clipboard export.
+
+---
+
+## 🛠️ 3. Tech Stack & Architecture
+
+### Core Technologies
+* **Framework & XR Engine:** Meta Immersive Web SDK (`@iwsdk/core`) + Three.js (WebGL2 / WebXR Device API)
+* **Language & Build Tooling:** TypeScript (ES Modules), Vite (`virtual:iwsdk-project`)
+* **Voice & Natural Language Understanding:** Meta **Wit.ai HTTP API** (`GET https://api.wit.ai/message`) + Web Speech API (`SpeechRecognition` & `SpeechSynthesis`) + Hybrid deterministic NLU fallback for zero-latency offline reliability
+* **Audio Synthesis:** Procedural Web Audio API (`AudioContext` sine-wave harmonic chimes)
+* **State & Persistence:** Reactive singleton store (`LumaStateStore`) backed by browser `localStorage` (`lumadesk_clinical_store_v5`) with automatic daily streak rollover
+
+### Repository Architecture
+```text
+lumadesk/
+├── index.html                        # Entry HTML container (#scene-container)
+├── package.json                      # Dependencies (@iwsdk/core, TypeScript, Vite)
+└── src/
+    ├── index.ts                      # World.create() bootstrap & LumaDeskSystem registration
+    ├── lumadesk.ts                   # Main ECS System: 3-table cockpit, colinear XR raycaster,
+    │                                 #   3D Kanban board, Visual Focus Timer, MR Passthrough,
+    │                                 #   Plasma Voice Orb, Sky Birds & Garden interactions
+    ├── state/
+    │   └── store.ts                  # Reactive store, Kanban state, clinical telemetry & persistence
+    ├── modules/
+    │   ├── therapy-quests.ts         # 4-stage clinical readiness quests & 4 daily routine contexts
+    │   ├── sandbox-builder.ts        # Isolated 3D Visuomotor Tracing Canvas, Xylophone & Sky Shop
+    │   └── wit-voice.ts              # Meta Wit.ai NLU client, SpeechRecognition & demo cycling
+    ├── worlds/
+    │   └── world-generator.ts        # Procedural 360° sky domes (Forest, Ocean, Dino, Space) & Evening Dim
+    └── ui/
+        └── dev-inspector.ts          # Accessible Kid Bar HUD, Parent/Wit.ai Config & Therapist Report Modal
+
+Technical Highlight: 100% Colinear WebXR Raycasting
+To prevent cursor-to-laser drift for neurodivergent users, LumaDesk parents unit-length (1.0m) -Z laser beams directly to world.input.xr.xrOrigin.raySpaces.left and raySpaces.right. Each frame, findHitTarget() dynamically scales beam.scale.z = d and locks tip.position.z = -d along the exact hit distance d (with a 2.6cm closest-point-on-ray projection for curved 3D meshes), ensuring the golden target dot is welded to the tip of the white ray line with zero parallax offset.
+
+🚀 4. Getting Started (Installation & Setup)
+Prerequisites
+Node.js v18.0.0 or higher (npm included)
+
+A modern browser with WebXR support (Google Chrome, Microsoft Edge, or Meta Quest Browser)
+
+(Optional) Meta Quest 2 / Quest Pro / Quest 3 / Quest 3S headset, or the Immersive Web Emulator (IWE) Chrome extension for desktop XR hand-tracking simulation
+
+Step-by-Step Local Setup
+
+1. Clone the Respository: 
+
+Bash git clone [https://github.com/](https://github.com/)<your-username>/lumadesk.git
+cd lumadesk
+
+Install dependencies: Bash npm install
+
+Start the local Development server: 
+
+Bash npm run dev "Vite will start the local server (typically at http://localhost:8081 or http://localhost:5173). Open the displayed URL in your browser."
+
+Configure Meta Wit.ai Token(Optional):
+*Click 👨‍👩‍👧 Parent & Judge Menu ▾ on the bottom HUD bar, then click 👨‍👩‍👧 Parent & Wit.ai Setup.
+
+*Paste your Meta Wit.ai Client/Server Bearer Token (or leave it blank to use the built-in Hybrid NLU & instant judge demo utterances).
+
+Productiob Build: Bash npm run build | npm run preview
+
+🧭 5. Judge Walkthrough & Quick-Start Guide
+We designed LumaDesk so a judge can experience 100% of the core productivity and clinical features in under 2 minutes—either in a Meta Quest headset or directly in a desktop browser.
+
+Step 1: Onboard or Use Quick Demo Login (10 sec)
+On launch, click ⚡ Quick Demo Login (or customize the child's nickname, birthday, and therapy focus) in the Parent Sign-Up modal.
+
+Step 2: Test the Left-Wing 3D Kanban Board & Visual Focus Timer (30 sec)
+Look at the Left Purple Table: you will see three glowing columns (🔴 TO-DO, 🟡 DOING, 🟢 DONE) and 4 Daily Routine Context pills (☀️ Morning, 🚌 Commute, 📚 Study, 🌙 Night).
+
+Click/pinch any card in 🔴 TO-DO (e.g., 📌 Pack drawing pad) ➔ It moves to 🟡 DOING and automatically starts the 2-Minute 3D Visual Focus Timer Ring around the center desk rim!
+
+Click/pinch the card in 🟡 DOING ➔ It moves to 🟢 DONE, awarding +15✨ Sparks and +1🌱 Seed.
+
+Click Luma (the glowing blue pet in the center) anytime to trigger the "🎲 Pick 1 Tiny Step For Me!" decision unblocker.
+
+Step 3: Trigger Meta Wit.ai Voice NLU & 3D Weather Hologram (25 sec)
+Tap the Cyan-Magenta Liquid-Plasma Orb on the right (🎙️ Speak to Luma (Wit.ai)) or press V on your keyboard.
+
+Speak into your microphone (or let the built-in Judge Demo cycler fire sample utterances automatically):
+
+"What is the weather and what should I wear?" ➔ Spawns the 3D Weather & Sensory Outfit Hologram.
+
+"Break down my homework" ➔ Splits the task into 3 micro-steps across 🔴 TO-DO and 🟡 DOING.
+
+"Remind me to pack my math book" ➔ Pins a new 3D card onto the Left Kanban Board.
+
+Step 4: Experience the Isolated 3D Visuomotor Tracing Canvas (25 sec)
+Click 🎨 3D Brush & Xylophone on the bottom bar, then click 🖌️ Open 3D Drawing Canvas (or tap any of the 4 neon paint pots).
+
+Notice how all background tables and UI vanish to prevent sensory overload.
+
+Hold down click/pinch and drag along the semi-transparent Lazy-8 Infinity Loop to connect all 5 glowing star checkpoints (+20✨ Sparks).
+
+Click ✨ Change Trace Guide to cycle through INFINITY, WAVE, STAR, and FREE draw modes, then click ❌ Close Canvas to cleanly restore the 3-table room.
+
+Step 5: Plant & Water the Right-Wing Botanical Garden + Switch to MR View (20 sec)
+Tap 💧 Water or 🍎 Safe Meal on the center desk to log biological self-care.
+
+Look at the Right Green Table: tap 🌱 Pick Seed and touch any empty pot, then tap 🚿 Grab Watering Can and sweep across the pots to grow a blooming 3D tree!
+
+Finally, tap the 3D Mini House Icon (🏠 Real Room (MR)) on the left (or press P) to see the center table hollow out into a clean Mixed Reality Homework Cockpit.
+
+Open 👨‍👩‍👧 Parent & Judge Menu ▾ ➔ 📊 Daily Report to inspect and copy the clinical telemetry summary.
+
+⌨️ Keyboard & XR Simulator Shortcuts
+Input / Key                 Action
+Left Click / F / \ /        Activate hovered 3D object / Hold to paint on 3D Canvas
+Enter                      
+
+Spacebar                   Advance active 4-Stage Therapy Quest step
+
+V                          Trigger Meta Wit.ai Voice NLU Orb
+
+T                          Start / Cycle 3D Visual ADHD Focus Timer (2-Min ➔ 5-Min ➔ Pause)
+
+P                          Toggle Mixed Reality Passthrough (🏠 Real Room (MR))
+
+
+6. Future Roadmap
+📅 Two-Way Google Calendar & Classroom Sync: Automatically import a student's real school assignments and IEP (Individualized Education Program) goals directly into the Left 3D Kanban 🔴 TO-DO lane.
+
+⌚ Biometric Smart-Watch Integration (Web Bluetooth): Stream live heart-rate variability (HRV) from a child's wearable to trigger Luma's Sensory SOS & Stage 2 Breath Sync automatically before a sensory meltdown occurs.
+
+🤝 Multiplayer Co-Regulation & Body-Doubling Rooms: Allow a parent, occupational therapist, or classmate to join the child's LumaDesk sanctuary as a supportive avatar for shared focus sprints.
+
+🏫 Cloud Therapist Portal (HIPAA/FERPA Compliant): Expand the local 📊 Daily Report exporter into a cloud dashboard where pediatric occupational therapists can prescribe custom 3D tracing paths and routine sequences remotely.
+
+Clinical References & Inspiration
+Barkley, R. A. (1997). ADHD and the Nature of Self-Control — Visual externalization of time and working memory for time-blindness intervention.
+
+Mattard-Labrecque, C., et al. (2013). Sensorimotor and upper-limb coordination in children with autism and ADHD.
+
+Ahlström, B. H., & Wentz, E. (2014). Everyday life autonomy and self-care scaffolding in neurodivergent youth.
+
+Magnúsdóttir, K., et al. (2016). Receptive and expressive communication scaffolding through structured visual-vocal prompts.
