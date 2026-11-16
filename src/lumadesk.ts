@@ -2244,7 +2244,8 @@ export class LumaDeskSystem extends createSystem({}) {
         metalness: 0.3,
       }),
     );
-    this.centerTableMesh.position.set(0, -0.22, 0);
+    tableMesh.position.set(0, -0.22, 0);
+    this.centerTableMesh = tableMesh;
     this.deskRoot.add(tableMesh);
 
     const rimMesh = new Mesh(

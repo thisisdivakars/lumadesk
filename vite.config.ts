@@ -8,7 +8,7 @@
 import { iwsdkDev } from '@iwsdk/vite-plugin-dev';
 import { defineConfig } from 'vite';
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [iwsdkDev()],
   server: { host: '0.0.0.0', port: 8081, open: false },
   build: {
@@ -41,5 +41,6 @@ export default defineConfig({
     esbuildOptions: { target: 'esnext' },
   },
   publicDir: 'public',
-  base: '/lumadesk/',
-});
+  // Fix: Dynamically set the base path for localhost vs. GitHub Pages
+  base: command === 'build' ? '/lumadesk/' : '/',
+}));
